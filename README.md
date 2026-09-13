@@ -1,5 +1,8 @@
 # arduino-libg722
 
+[![Arduino Library](https://img.shields.io/badge/Arduino-Library-blue.svg)](https://www.arduino.cc/reference/en/libraries/)
+[![IDF Component](https://img.shields.io/badge/IDF-Component-blue.svg)](https://github.com/pschatzmann/arduino-libg722)
+
 ## Introduction
 
 The G.722 module is a bit exact implementation of the ITU G.722 specification

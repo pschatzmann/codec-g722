@@ -1,5 +1,16 @@
 cmake_minimum_required(VERSION 3.16)
 
+if (DEFINED ESP_PLATFORM)
+  # idf component
+  idf_component_register(
+      SRCS "g722_decode.c" "g722_encode.c"
+      INCLUDE_DIRS "."
+  )
+
+  target_compile_options(${COMPONENT_LIB} PUBLIC -Wno-error)
+
+else()
+
 # set the project name
 project(arduino_libg22)
 
@@ -107,4 +118,6 @@ else()
   else()
     message(STATUS "LTO not supported: <${lto_error}>")
   endif()
+endif()
+
 endif()
