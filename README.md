@@ -1,7 +1,7 @@
-# arduino-libg722
+# codec-g722
 
 [![Arduino Library](https://img.shields.io/badge/Arduino-Library-blue.svg)](https://www.arduino.cc/reference/en/libraries/)
-[![IDF Component](https://img.shields.io/badge/IDF-Component-blue.svg)](https://github.com/pschatzmann/arduino-libg722)
+[![IDF Component](https://img.shields.io/badge/IDF-Component-blue.svg)](https://github.com/pschatzmann/codec-g722)
 [![CMake](https://img.shields.io/badge/CMake-Supported-blue.svg)](https://cmake.org/)
 
 ## Introduction
